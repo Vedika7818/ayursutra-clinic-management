@@ -14,7 +14,7 @@ const logout = () => {
   return (
   <>
     {/* TOP NAVBAR */}
-    <Navbar title="Doctor Dashboard" />
+    <Navbar title="Doctor Dashboard" onLogout={logout} />
 
     <div style={{ padding: "30px" }}>
 

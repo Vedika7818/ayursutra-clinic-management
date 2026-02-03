@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Button, TextField, MenuItem, Box, Typography, Card, CardContent } from "@mui/material";
 import { useState } from "react";
-import { login } from "../../services/authService";
 import axios from "axios";
 import { Snackbar, Alert } from "@mui/material";
 

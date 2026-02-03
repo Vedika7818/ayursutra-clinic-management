@@ -14,7 +14,7 @@ export default function AdminDashboard() {
   return (
   <>
     {/* TOP NAVBAR */}
-    <Navbar title="Admin Dashboard" />
+    <Navbar title="Admin Dashboard" onLogout={logout} />
 
     <div style={{ padding: "30px" }}>
 

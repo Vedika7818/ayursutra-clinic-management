@@ -13,7 +13,7 @@ const logout = () => {
   return (
   <>
     {/* TOP NAVBAR */}
-    <Navbar title="Reception Dashboard" />
+    <Navbar title="Reception Dashboard" onLogout={logout} />
 
     <div style={{ padding: "30px" }}>
 
